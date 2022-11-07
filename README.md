@@ -1,3 +1,5 @@
+Hardware not tested yet.
+
 ## Hardware
 Features:
 - IR interface for the [smart](https://youtu.be/aqHauk3bNFA) meter
@@ -23,6 +25,6 @@ For Tasmota to use the SML feature, the following must be added to the ```user_c
 The software is compiled using the 8M tasmota32 preset. Flashed using [this](https://github.com/FranzImsch/CP2104-M8) serial converter.
 
 ## Links
-[Schematic](franz.science/stromzaehler/Schematic.pdf)  
-[iBom](franz.science/stromzaehler/ibom/)  
+[Schematic](https://franz.science/stromzaehler/Schematic.pdf)  
+[iBom](https://franz.science/stromzaehler/ibom/)  
 [Tasmota](https://github.com/arendst/tasmota)
