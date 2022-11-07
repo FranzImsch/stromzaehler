@@ -19,10 +19,10 @@ For Tasmota to use the SML feature, the following must be added to the ```user_c
 #undef USE_RULES
 #endif
 ```
-The software is compiled using the 8M tasmota32 preset. Flashed using [this](https://github.com/FranzImsch/CP2104-M8) serial converter.
+The software is compiled using the 8M tasmota32 preset. Flashed using [this](https://github.com/FranzImsch/CP2104-M8) serial adapter.
 
 ## Links
-[3D model](https://a360.co/3Tq192N)
-[Schematic](https://franz.science/stromzaehler/Schematic.pdf)  
-[iBom](https://franz.science/stromzaehler/ibom/)  
-[Tasmota](https://github.com/arendst/tasmota)
+- [3D model](https://a360.co/3Tq192N)  
+- [Schematic](https://franz.science/stromzaehler/Schematic.pdf)  
+- [iBom](https://franz.science/stromzaehler/ibom/)  
+- [Tasmota](https://github.com/arendst/tasmota)
