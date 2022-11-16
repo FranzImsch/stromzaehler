@@ -2452,7 +2452,7 @@
     (property "Value" "DNP" (id 1) (at 51.8415 142.6722 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Franz-Lib:R_0402_1005Metric_NoSilk" (id 2) (at 53.34 140.97 0)
+    (property "Footprint" "Franz-Lib:R_0402_1005Metric_NoSilk_DNP" (id 2) (at 53.34 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 53.34 140.97 0)
@@ -3139,10 +3139,10 @@
     (property "Reference" "C5" (id 0) (at 237.2741 142.6816 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "22nF" (id 1) (at 237.2741 145.2185 0)
+    (property "Value" "DNP" (id 1) (at 237.2741 145.2185 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Franz-Lib:C_0402_1005Metric_NoSilk" (id 2) (at 234.95 143.51 0)
+    (property "Footprint" "Franz-Lib:C_0402_1005Metric_NoSilk_DNP" (id 2) (at 234.95 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 234.95 143.51 0)
@@ -3599,7 +3599,7 @@
       (reference "C4") (unit 1) (value "100nF") (footprint "Franz-Lib:C_0402_1005Metric_NoSilk")
     )
     (path "/d0a86c67-e1ab-456f-a619-e243aff167df"
-      (reference "C5") (unit 1) (value "22nF") (footprint "Franz-Lib:C_0402_1005Metric_NoSilk")
+      (reference "C5") (unit 1) (value "DNP") (footprint "Franz-Lib:C_0402_1005Metric_NoSilk_DNP")
     )
     (path "/d6cbff75-5c2b-4b47-9942-8467e7759074"
       (reference "C6") (unit 1) (value "4.7µF") (footprint "Franz-Lib:C_0603_1608Metric_NoSilk")
@@ -3665,7 +3665,7 @@
       (reference "R8") (unit 1) (value "910Ω") (footprint "Franz-Lib:R_0402_1005Metric_NoSilk")
     )
     (path "/29da2067-8a40-4b9d-b070-795b0f9e23a9"
-      (reference "R9") (unit 1) (value "DNP") (footprint "Franz-Lib:R_0402_1005Metric_NoSilk")
+      (reference "R9") (unit 1) (value "DNP") (footprint "Franz-Lib:R_0402_1005Metric_NoSilk_DNP")
     )
     (path "/a761d759-6c8c-4e8c-8f3a-5a11e22f114c"
       (reference "R10") (unit 1) (value "10kΩ") (footprint "Franz-Lib:R_0402_1005Metric_NoSilk")
