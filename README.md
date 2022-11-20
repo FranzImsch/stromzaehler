@@ -1,10 +1,18 @@
 ## Hardware
 Features:
-- IR interface for a [smart](https://youtu.be/aqHauk3bNFA) electricity meter
-- binary input for gas meter
+- IR interface for a [smart (DE)](https://youtu.be/aqHauk3bNFA) electricity meter,
+- binary input for a gas meter (impulse counter),
+- high efficiency buck converter for the USB power supply.
 
-![Overview](photo.jpg)  
+![Overview](assets/photo.jpg)  
+
+The interface is mounted to the electricity meter using a ring magnet (27 x 5 x 16 mm). The magnet is glued into the 3D-printed [plastic part](https://github.com/FranzImsch/stromzaehler/blob/main/plastic_mount.step) as shown in the picture below.
+
+A [threaded insert (M2)](https://www.digikey.de/en/products/detail/tri-star-industries-inc/M20X157C/13535373) is melted into the plastic piece so that the PCB can be mounted using an M2x5 screw.
+![Cross section](assets/cross_section.png)
 Detailed overview: https://a360.co/3Tq192N
+
+Some electricity meters send data without 'request' and therefore the IR-LED along with its circuitry can be omitted in those cases. The [Volkszähler (DE)](https://wiki.volkszaehler.org/hardware/channels/meters) site is pretty useful to find information about different meters.
 
 ## Software
 For Tasmota to use the SML feature, the following must be added to the ```user_config_override.h```-File (as per [documentation](https://tasmota.github.io/docs/Smart-Meter-Interface/)):
@@ -30,6 +38,6 @@ Also, the TelePeriod was set to 10 seconds (the fastest) as per [documentation](
 
 ## Links
 - [3D model](https://a360.co/3Tq192N)  
-- [Schematic](https://franz.science/stromzaehler/Schematic.pdf)  
+- [Schematic](https://franz.science/stromzaehler/KiCad-Files/Schematic.pdf)  
 - [iBom](https://franz.science/stromzaehler/ibom/)  
 - [Tasmota](https://github.com/arendst/tasmota)
